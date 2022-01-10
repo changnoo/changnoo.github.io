@@ -1,143 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chaewoon Song | ECE @UBC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <script src="https://kit.fontawesome.com/3cf02dad42.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/3cf02dad42.js"
+      crossorigin="anonymous"
+    ></script>
 
     <style>
-        .push-left{
-            margin-left: auto;
-        }
-        .featurette-divider {
-             margin: 2rem 0; /* Space out the Bootstrap <hr> more */
-             
-        }
-                /* Featurettes
+      .push-left {
+        margin-left: auto;
+      }
+      .featurette-divider {
+        margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+      }
+      /* Featurettes
         ------------------------- */
 
-        .featurette-divider {
+      .featurette-divider {
         margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-        }
+      }
 
-        /* Thin out the marketing headings */
-        .featurette-heading {
+      /* Thin out the marketing headings */
+      .featurette-heading {
         font-weight: 300;
         line-height: 1;
         /* rtl:remove */
-        letter-spacing: -.05rem;
-        }
+        letter-spacing: -0.05rem;
+      }
 
-
-        /* RESPONSIVE CSS
+      /* RESPONSIVE CSS
         -------------------------------------------------- */
 
-        @media (min-width: 40em) {
+      @media (min-width: 40em) {
         /* Bump up size of carousel content */
         .carousel-caption p {
-            margin-bottom: 1.25rem;
-            font-size: 1.25rem;
-            line-height: 1.4;
+          margin-bottom: 1.25rem;
+          font-size: 1.25rem;
+          line-height: 1.4;
         }
 
         .featurette-heading {
-            font-size: 50px;
+          font-size: 50px;
         }
-        }
+      }
 
-        @media (min-width: 62em) {
+      @media (min-width: 62em) {
         .featurette-heading {
-            margin-top: 7rem;
+          margin-top: 7rem;
         }
-    }
+      }
     </style>
-</head>
-<body class="bg-light">
-    
+  </head>
+  <body class="bg-light">
     <!-- Navbar Start -->
     <nav class="navbar shadow navbar-expand-lg navbar-light bg-light">
-        <div class="container-lg">
+      <div class="container-lg">
 
-            <a href="index.html" class="navbar-brand fw-bold fs-4">CHAEWOON SONG</a>
+          <a href="index.html" class="navbar-brand fw-bold fs-4">CHAEWOON SONG</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-              aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+           aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
 
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav push-left">
-                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  <a class="nav-link" href="aboutme.html">About Me</a>
-                  <a class="nav-link" href="experience.html">Experiences</a>
-                  <a class="nav-link active" href="projects.html">Projects</a>
-                </div>
-              </div>
-        </div>
-    </nav>
+           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+             <div class="navbar-nav push-left">
+               <a class="nav-link" href="index.html">Home</a>
+               <a class="nav-link" href="aboutme.html">About Me</a>
+               <a class="nav-link" href="experience.html">Experiences</a>
+               <a class="nav-link active" aria-current="page"  href="projects.html">Projects</a>
+             </div>
+           </div>
+
+      </div>
+  </nav>
     <!-- Navbar End -->
-    
+
     <!-- Main -->
     <div class="container-lg">
-
-    <div class="row featurette mt-5">
+      <div class="row featurette mt-5">
         <div class="col-md-5">
-          <h2 class="featurette-heading fw-bold fs-1">Robotics Control System Simulation: <span class="text-muted">Open Loop & Closed Loop Controllers.</span></h2>
-          <p class="lead mt-3">I implemented a Two-Link Manipulator Robot Dynamics on MATLAB, then implemented Closed-Loop controllers: PD + Gravity Controller in the Joint Space,
-              Stiffness Controller in the Task Space. I explored the benefits and drawbacks of each controllers, and simulated both systems.</p>
+          <h2 class="featurette-heading fw-bold fs-1">
+            Robotics Control System Simulation:
+            <span class="text-muted">Open Loop & Closed Loop Controllers.</span>
+          </h2>
+          <p class="lead mt-3">
+            I implemented a Two-Link Manipulator Robot Dynamics on MATLAB, then
+            implemented Closed-Loop controllers: PD + Gravity Controller in the
+            Joint Space, Stiffness Controller in the Task Space. I explored the
+            benefits and drawbacks of each controllers, and simulated both
+            systems.
+          </p>
           <p>Technologies Used: MATLAB, Simulink</p>
         </div>
         <div class="col-md-7">
-            <img class="mt-5" src="img/robotics.png" alt="robotics dynamics diagram" border="1">
+          <img
+            class="mt-5"
+            src="img/robotics.png"
+            alt="robotics dynamics diagram"
+            border="1"
+          />
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" />
       <div class="row featurette">
         <div class="col-md-5 order-md-2 mx-auto">
-          <h2 class="featurette-heading fw-bold fs-1" style="margin-top: -1rem;">Amazoom: Automated Warehouse Simulation <span class="text-muted">Multithreaded & Real-Time simulation in C#</span></h2>
-          <p class="lead"> Amazoom, an Amazon clone, simulates a warehouse with products, robots, and trucks working together to serve clients in real-time. Orders are placed ofcontainer
-            our web interface; robots and trucks work synchronously to restock and deliver products; and status is constantly updated through WPF GUI.</p>
-            <p class="lead">Click on the gif to the left to learn more about the project & be taken to the GitHub repository.</p>
-            <p>Technologies Used: C#, ASP.NET, MVC webpage, MongoDB and WPF.</p>
+          <h2 class="featurette-heading fw-bold fs-1" style="margin-top: -1rem">
+            Amazoom: Automated Warehouse Simulation
+            <span class="text-muted"
+              >Multithreaded & Real-Time simulation in C#</span
+            >
+          </h2>
+          <p class="lead">
+            Amazoom, an Amazon clone, simulates a warehouse with products,
+            robots, and trucks working together to serve clients in real-time.
+            Orders are placed ofcontainer our web interface; robots and trucks
+            work synchronously to restock and deliver products; and status is
+            constantly updated through WPF GUI.
+          </p>
+          <p class="lead">
+            Click on the gif to the left to learn more about the project & be
+            taken to the GitHub repository.
+          </p>
+          <p>Technologies Used: C#, ASP.NET, MVC webpage, MongoDB and WPF.</p>
         </div>
         <div class="col-md-5 order-md-1">
-            <a target="_blank" href="https://github.com/changnoo/Amazoom">
-              <img class="mt-5" src="img/amazoom.gif" alt="amazoom" style="border: 1px solid black" alt="amazoom">
-            </a>
+          <a target="_blank" href="https://github.com/changnoo/Amazoom">
+            <img
+              class="mt-5"
+              src="img/amazoom.gif"
+              alt="amazoom"
+              style="border: 1px solid black"
+              alt="amazoom"
+            />
+          </a>
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" />
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Another project underway! <div class="text-muted">Check again soon :)</div></h2>
-          <p class="lead"><!--This is where i'd put project description --> </p>
+          <h2 class="featurette-heading">
+            Another project underway!
+            <div class="text-muted">Check again soon :)</div>
+          </h2>
+          <p class="lead"><!--This is where i'd put project description --></p>
         </div>
         <div class="col-md-5">
-            <img class="mt-5" src="img/dog-golden.gif" border="2" alt="good doooog">
+          <img
+            class="mt-5"
+            src="img/dog-golden.gif"
+            border="2"
+            alt="good doooog"
+          />
         </div>
       </div>
     </div>
 
-
     <!-- Footer Start -->
     <div class="container-lg">
-        <hr class="featurette-divider">
-        <footer>
-            <p class="text-center">Copyright &copy; 2022 Chaewoon Song</p>
-        </footer>
-        
+      <hr class="featurette-divider" />
+      <footer>
+        <p class="text-center">Copyright &copy; 2022 Chaewoon Song</p>
+      </footer>
     </div>
     <!-- Footer End -->
-</body>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
 </html>
