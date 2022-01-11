@@ -1,0 +1,19 @@
+.bg-theme{
+    background-color: rgb(100, 202, 143) ;
+}
+
+.experience-header
+{
+    display:flex;  
+    align-items : center;
+    gap:30px;
+
+}
+
+@font-face {
+    font-family: tesla;
+    src: url(TESLA.ttf);
+  }
+  .teslaclass {
+    font-family: tesla;
+  }
