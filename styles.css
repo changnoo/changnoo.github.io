@@ -7,6 +7,18 @@
     display:flex;  
     align-items : center;
     gap:30px;
+    flex-wrap:wrap;
+    flex-grow:1;  
+
+}
+
+
+@media all and (min-width:500px)
+{
+  .work-period-sm
+  {
+    margin-left:auto;
+  }
 
 }
 
